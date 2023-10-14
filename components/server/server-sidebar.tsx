@@ -200,6 +200,7 @@ export const ServerSidebar = async ({
           </div>
         )}
       </ScrollArea>
+      <p className="text-xs text-zinc-500 text-center">Created by Joyboy7867</p>
     </div>
   )
 }

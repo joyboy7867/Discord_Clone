@@ -21,7 +21,9 @@ const SetupPage = async () => {
     return redirect(`/servers/${server.id}`);
   }
 
-  return <InitialModal />;
+  return <> <head><meta name="google-site-verification" content="ZlUbpCRn0NIK7iBWPJUHvRKhsZxTUv1aymoiGMMtDnc" /></head>
+  <InitialModal />
+  </>;
 }
  
 export default SetupPage;

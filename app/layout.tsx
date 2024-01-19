@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
+         <head><meta name="google-site-verification" content="ZlUbpCRn0NIK7iBWPJUHvRKhsZxTUv1aymoiGMMtDnc" /></head>
         <body className={cn(
           font.className,
           "bg-white dark:bg-[#313338]"
